@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  <!-- <h1>CHATBOT</h1> -->
+  <div class="main">
+    <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+    <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
+    <script src="https://api.motion.ai/sdk/webchat.js"></script>
+    <script>
+      motionAI_Init(
+        '72291?color=3588eb&sendBtn=SEND&inputBox=Type%20something...&token=1358014fced90ed83d2d800434f97869', true,
+        400, 470, 'https://api.motion.ai/sdk/botbtn.png');
+      motionAI_Open();
+    </script>
+    <div class="cover"></div>
+  </div>
+</body>
+
+</html>
